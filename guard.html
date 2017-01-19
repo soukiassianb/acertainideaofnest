@@ -1,0 +1,149 @@
+<DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<link rel="stylesheet" type="text/css" href="guardstyle.css">
+<title>A certain Idea of Nest - Nest Guard</title>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-44877962-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+<div>
+	<section id="top">
+		<img class="logo" src="images/nestlogo.png" height="70">
+		<a class="byben" href="http://www.internben.com"><img src="images/byben.png"height="50"></a>
+		
+		<ul id="navigation">
+<li><a href="index.html" title="Home">Home</a></li>
+  <li><a href="guard.html" title="Guard">Guard</a></li>
+  <li><a href="lock.html" title="Lock">Lock</a></li>
+  <li><a href="plug.html" title="Plug">Plug</a></li>
+  <li><a href="about.html" title="Plug">About</a></li>
+
+  
+</ul>
+
+	</section>
+</div>
+
+<div>
+	<section id="section1">
+<a id="navbottom" href="#ptitesection"><img src="images/navblancbas.png" height="25"></a>
+		</section>
+</div>
+
+
+<div>
+	<section id="ptitesection">
+
+	
+	<img src="images/nocomp.png" height="100px">
+	</section>
+</div>
+	
+<div>
+	<section id="section2">
+		<img class="guard1" src="images/guard1.png" width="1100">
+		<a id="navtop" href="#section1"><img src="images/navgrishaut.png" height="25"></a>
+		<a id="navbottom" href="#section3"><img src="images/navgrisbas.png" height="25"></a>
+	</section>
+</div>
+
+<div>
+	<section id="section3">
+		<img class="image"src="images/armitself.jpg" height="700">
+		<a id="navtop" href="#section2"><img src="images/navblanchaut.png" height="25"></a>
+		<a id="navbottom" href="#section4"><img src="images/navblancbas.png" height="25"></a>
+	</section>
+</div>
+
+<div>
+	<section id="section4">
+		<p><img src="images/proximity.png" height="600px"><p>
+			<a id="navcenter" href="#section5"><img src="images/navgrisbas.png" height="25"></a>
+	</section>
+</div>
+<div>
+	<section id="section5">
+		<img src="images/disarm.png" height="110px">
+	</section>
+</div>
+<div>
+	<section id="section6">
+				<p><img src="images/magicword.png" height="500px"><p>
+					<a id="navcenter" href="#section7"><img src="images/navgrisbas.png" height="25"></a>
+	</section>
+</div>
+
+<div>
+	<section id="section7">
+		<a id="navtop" href="#section5"><img src="images/navgrishaut.png" height="25"></a>
+		<a id="navbottom" href="#section8"><img src="images/navgrisbas.png" height="25"></a>
+	</section>
+</div>
+
+<div>
+	<section id="section8">
+		<img src="images/guardapps.png" height="700px">
+		<a id="navtop" href="#section7"><img src="images/navbleuhaut.png" height="25"></a>
+		<a id="navbottom" href="#section9"><img src="images/navbleubas.png" height="25"></a>
+	</section>
+</div>
+<div>
+	<section id="section9">
+		<img src="images/buynow.png" height="200px">
+	</section>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>  
+<script type="text/javascript">  
+function juizScrollTo(element){  
+    $(element).click(function(){  
+        var goscroll = false;  
+        var the_hash = $(this).attr("href");  
+        var regex = new RegExp("\#(.*)","gi");  
+        var the_element = '';  
+   
+        if(the_hash.match("\#(.+)")) {  
+            the_hash = the_hash.replace(regex,"$1");  
+   
+            if($("#"+the_hash).length>0) {  
+                the_element = "#" + the_hash;  
+                goscroll = true;  
+            }  
+            else if($("a[name=" + the_hash + "]").length>0) {  
+                the_element = "a[name=" + the_hash + "]";  
+                goscroll = true;  
+            }  
+   
+            if(goscroll) {  
+                $('html, body').animate({  
+                    scrollTop:$(the_element).offset().top  
+                }, 'slow');  
+                return false;  
+            }  
+        }  
+    });  
+};  
+juizScrollTo('a[href^="#"]');
+</script> 
+
+
+</body>
+	</html>

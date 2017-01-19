@@ -1,0 +1,139 @@
+body{
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+#navtop{
+	position: absolute;
+	left: 50px;
+	top: 20px;
+}
+
+#navbottom{
+	position: absolute;
+	left: 50px;
+	bottom: 20px;
+}
+#navcenter{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top{
+	height: 80px;
+	background-color: white;
+	width: auto;
+	position: relative;
+	top: 0px;
+	border-bottom: 1px solid #CACACA;
+}
+#top .logo{
+	position: relative;
+	left: 30px;
+}
+#top .byben{
+	float: right;
+  position: relative;
+  top: 15px;
+  right: 25px;
+}
+
+
+#navigation {
+  margin: 0 ;
+  padding: 0 ;
+  list-style: none ;
+  text-align: center ;
+  position: relative;
+  top: -40px;
+}
+
+#navigation li {
+  display: inline ;
+  margin-right: 1px ;
+  color: #fff ;
+}
+#navigation li a {
+	  text-transform: uppercase;
+
+  padding: 4px 17px ;
+  color: #929292 ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  font-size: 15px;
+  line-height: 1.2em ;
+  text-align: center ;
+  text-decoration: none ;
+   -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s
+}
+#navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+  color: #F89614;
+    text-transform: uppercase;
+
+}
+#top1{
+	height: 700px;
+	background:url(images/plug/standby.jpg)50% no-repeat;
+	position: relative;
+}
+
+#section1{
+	height: 700px;
+	background:url("images/pattern.png")50% repeat;
+	position: relative;
+	text-align: center;
+
+}
+#section1 .image {
+position: relative;
+top: 120px;
+left: 40px;
+}
+
+#section2{
+	height: 700px;
+	background:url(images/plug/leafs.jpg)50% no-repeat;
+	position: relative;
+}
+
+#section3{
+	height: 700px;
+	background:white;
+	position: relative;
+	text-align: center;
+}
+#section3 .image{
+	position: relative;
+	top: 50px;
+}
+
+
+#section4{
+	height: 700px;
+	background:url("images/pattern.png")50% repeat;
+	position: relative;
+	text-align: center;
+}
+#section4 .image {
+position: relative;
+top: 100px;
+left: -50px
+}
+
+#section5{
+	height: 300px;
+	background:white;
+	position: relative;
+	text-align: center;
+	top: 70px;
+	
+}
+
+
+
+
